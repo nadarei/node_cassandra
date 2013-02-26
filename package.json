@@ -6,7 +6,7 @@
   "main": "./lib/cassandra",
   "lib" : "gen-nodejs",
   "dependencies" : {
-    "thrift": "*"
+    "thrift": "git+https://github.com/nadarei/node-thrift.git#0.7.0-1"
   },
   "engines": { "node": ">= 0.3" }
 }
